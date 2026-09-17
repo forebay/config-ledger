@@ -8,7 +8,7 @@ import { readdirSync } from "fs";
 import { ledgerRuntime } from "./runtime.js";
 
 // `home` scopes every path to one app config dir. Omit it and the running host's own home is used,
-// so single-home callers behave unchanged; Cairn passes an explicit home per app it manages.
+// so single-home callers behave unchanged; a dashboard passes an explicit home per app it manages.
 export function configDir(home?) {
   return home || ledgerRuntime().home();
 }
