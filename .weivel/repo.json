@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "importName": "config-ledger",
+  "description": "Keeps git history of an application home's config; retired by ruling, the user's dotfiles replace it.",
+  "topics": [
+    "ai",
+    "ai-proxy",
+    "forebay",
+    "llm",
+    "plugin",
+    "typescript"
+  ]
+}
